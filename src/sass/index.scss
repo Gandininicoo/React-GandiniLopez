@@ -1,0 +1,82 @@
+.header{
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 100%;
+    background-color:  rgb(204, 204, 204);
+    height: 118px;
+    @media all and (min-width:1000px){
+        grid-template-rows: 1fr;
+        height: 87px;
+    }
+    picture{
+        align-self: center;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #searchProductInput{
+        margin-top: 5px;
+        grid-column: 2/12;
+        grid-row: 2;
+        align-self: center;
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem;
+        border-radius: 40px;
+        border: none;
+        @media all and (min-width:1000px){
+            height: 50px;
+            grid-column: 4/10;
+            grid-row: 1;
+        }
+    }
+    .cartBTN{
+        background-color: rgba(0,0,0,0);
+        background-image: url(../img/carrito-icon-off.png);
+        border: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-self: end;
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        grid-column: 10;
+        grid-row: 1;
+        &:hover{
+            background-image: url(../img/carrito-icon.png);
+        }
+        @media all and (min-width:1000px){
+            height: 50px;
+            width: 50px;
+            grid-column: 11;
+        }
+    }
+}
+.imgHeader{
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    @media all and (min-width:700px){
+        height: 40px;
+        width: 186.02px;
+    }
+    @media all and (min-width:1000px){
+        height: 70px;
+        width: 325.54px;
+    }
+}
+.mainBody{
+    margin-top: 118px;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    height: 100vh;
+    @media all and (min-width:1000px){
+        margin-top: 87px;
+    }
+}
