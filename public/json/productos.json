@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bateria Wayotek 12x65",
+        "marca": "Wayotek",
+        "modelo": "65 Ah Electrolito Liquido",
+        "precio": 38000,
+        "stock": 5,
+        "img": "wayotek-65.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Bateria Wayotek 12x75",
+        "marca": "Wayotek",
+        "modelo": "75 Ah Electrolito Liquido",
+        "precio": 44000,
+        "stock": 3,
+        "img": "wayotek-75.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Bateria Mateo 12x75",
+        "marca": "Mateo",
+        "modelo": "75 Ah Electrolito Liquido",
+        "precio": 40000,
+        "stock": 6,
+        "img": "mateo-75.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Bateria Mateo 12x65",
+        "marca": "Mateo",
+        "modelo": "65 Ah Electrolito Liquido",
+        "precio": 35000,
+        "stock": 3,
+        "img": "mateo-65.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Bateria Moura 12x65",
+        "marca": "Moura",
+        "modelo": "65 Ah Electrolito Liquido",
+        "precio": 33000,
+        "stock": 3,
+        "img": "moura-65.webp"
+    }
+    
+    
+]

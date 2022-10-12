@@ -1,14 +1,15 @@
 import React from 'react';
+import Searcher from '../layouts/Searcher'
 
 const Header = () => {
     return (
         <>
             <header class="header">
                 <picture id="imgHeader">
-                    <source srcSet='../img/farmacia-recalde.png' media="(min-width: 700px)" />
-                    <img src='../img/farmacia-recalde2.png' alt="FARMACIA RECALDE" class="imgHeader" />
+                    <source srcSet='img/cdlx.png' media="(min-width: 700px)" />
+                    <img src='/img/cdl.png' alt="Western Hardware" class="imgHeader" />
                 </picture>
-                <input type="search" name="Buscar producto" id="searchProductInput" placeholder="Buscar Producto"/>
+                    <Searcher toSearch="Buscar Producto"/>
                     <button class="cartBTN" type="button" id="cartBTN"></button>
             </header>
         </>
