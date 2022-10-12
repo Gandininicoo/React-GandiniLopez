@@ -1,4 +1,5 @@
 import React, { useState, useEffect} from 'react';
+import {Link} from 'react-router-dom';
 
 const Productos = () => {
     const [productos, setProductos] = useState([]);
@@ -12,6 +13,7 @@ const Productos = () => {
                     <img className="productImg" src={"./img/productos/" + producto.img} alt={producto.nombre}/>
                     <h3 className="productName"> {producto.nombre}</h3>
                     <h5 className="productPrice"> {producto.precio}</h5>
+                    <button className='btn btn-dark'><Link className='nav-link' to={`/producto/${producto.id}`}>Ver Producto</Link></button>
                 </div>)
                 return(tarjetaProducto)
                 }

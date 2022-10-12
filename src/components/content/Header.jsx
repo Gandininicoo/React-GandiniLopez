@@ -7,8 +7,8 @@ const Header = () => {
         <>
             <header className="header">
                 <Link to="/" className="picture"><picture id="imgHeader">
-                    <source srcSet='img/cdlx.png' media="(min-width: 700px)" />
-                    <img src='/img/cdl.png' alt="Western Hardware" className="imgHeader" />
+                    <source srcSet='/img/cdlx.png' media="(min-width: 700px)" />
+                    <img src='/img/cdl.png' alt="CDL Electricidad Automotor" className="imgHeader" />
                 </picture></Link>
                     <Searcher toSearch="Buscar Producto"/>
                     <button className="cartBTN" type="button" id="cartBTN"></button>
