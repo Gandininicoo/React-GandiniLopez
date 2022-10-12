@@ -6,6 +6,7 @@ import Home from './content/Home';
 import Productos from './content/Productos'
 import Servicios from './content/Servicios'
 import Nosotros from './content/Nosotros'
+import Proyectos from './content/Proyectos';
 const App = () => {
     return (
         <>
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/productos" element={<Productos/>}/>
                 <Route path="/servicios" element={<Servicios/>}/>
                 <Route path="/nosotros" element={<Nosotros/>}/>
+                <Route path="/proyectos" element={<Proyectos/>}/>
             </Routes>
         </BrowserRouter>
         </>
